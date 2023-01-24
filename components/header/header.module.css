@@ -1,0 +1,13 @@
+.container {
+  width: 100%;
+}
+
+.content {
+  z-index: 2;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  padding: 38px 0;
+  margin: 0 auto;
+  width: var(--content-width);
+}

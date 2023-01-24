@@ -1,0 +1,33 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "title title"
+    "description questions";
+  grid-template-columns: 1fr auto;
+  padding-top: 215px;
+}
+
+.title {
+  grid-area: title;
+  margin: 0 auto 59px auto;
+  max-width: 641px;
+  text-align: center;
+}
+
+.list {
+  grid-area: questions;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: fit-content;
+}
+
+.item {
+  margin-bottom: 24px;
+  padding: 2px;
+  width: 703px;
+  border-radius: 8px;
+  clip-path: polygon(5% 0, 100% 0%, 100% 80%, 95% 100%, 0% 100%, 0 80%, 0 20%);
+  background-image: var(--gradient);
+  box-sizing: border-box;
+}

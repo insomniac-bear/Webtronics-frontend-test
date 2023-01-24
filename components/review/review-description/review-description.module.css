@@ -1,0 +1,8 @@
+.container {
+  grid-area: description;
+  padding-top: 124px;
+}
+
+.title {
+  margin-bottom: 17px;
+}

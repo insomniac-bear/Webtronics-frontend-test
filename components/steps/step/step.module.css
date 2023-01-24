@@ -1,0 +1,21 @@
+.decorationContainer {
+  display: flex;
+  padding: 2px;
+  background-image: var(--gradient);
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  width: 415px;
+  background-color: #181d39;
+  border-radius: 8px;
+}
+
+.step {
+  font-weight: 500;
+}

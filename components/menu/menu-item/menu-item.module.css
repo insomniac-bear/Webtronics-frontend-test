@@ -1,0 +1,15 @@
+.item {
+  margin-left: 48px;
+}
+
+.item:first-child {
+  margin-left: 0;
+}
+
+.link {
+  margin: 0;
+  padding: 0;
+  color: var(--clean);
+  text-decoration: none;
+  cursor: pointer;
+}

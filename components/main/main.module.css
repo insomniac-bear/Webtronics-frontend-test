@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+  min-width: var(--content-width);
+  background-image:
+    url(./bg-stars.png),
+    url(./bg-intro.png),
+    url(./bg-questions.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0px 37px, center 0, -50px 2900px;
+  transform: translateY(-107px);
+}

@@ -1,0 +1,13 @@
+.list {
+  margin: 24px 165px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  gap: 16px 145px ;
+}
+
+.link {
+  font-size: var(--p2);
+  color: var(--clean);
+  text-decoration: none;
+}

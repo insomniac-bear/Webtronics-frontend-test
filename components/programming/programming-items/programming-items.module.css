@@ -1,0 +1,28 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  margin: 0 auto;
+  padding: 0;
+  width: fit-content;
+  list-style: none;
+}
+
+.item {
+  padding: 24px 10px;
+  background-image: url(./item-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.icon {
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 17px;
+}
+
+.title {
+  text-align: center;
+}

@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagination {
+  margin: 0;
+  padding: 0;
+  font-family: var(--ClashDisplay);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.controls {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  padding: 1px;
+  background-image: var(--gradient);
+  border-radius: 8px;
+}
+
+.item:first-child {
+  margin-right: 24px;
+}
+
+.button {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #181C39;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "title title"
+    "description gallery";
+    grid-template-columns: 392px 1fr;
+    gap: 48px 17px;
+  padding-top: 152px;
+}
+
+.title {
+  grid-area: title;
+  text-align: center;
+}

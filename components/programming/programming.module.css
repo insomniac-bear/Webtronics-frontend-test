@@ -1,0 +1,15 @@
+.container {
+  padding-top: 155px;
+}
+
+.title {
+  margin: 0 auto 17px auto;
+  width: 543px;
+  text-align: center;
+}
+
+.description {
+  margin: 0 auto 55px auto;
+  width: 432px;
+  text-align: center;
+}

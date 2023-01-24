@@ -1,0 +1,34 @@
+.form {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  gap: 16px;
+  width: 493px;
+}
+
+.input {
+  display: block;
+  padding: 26px;
+  width: 100%;
+  font-size: var(--p1);
+  color: var(--text40);
+  background-color: inherit;
+  background-image: url(./input.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.input::placeholder {
+  font-size: var(--p1);
+  color: var(--text40);
+}
+
+.error {
+  color: var(--error);
+  font-size: var(--p2);
+}

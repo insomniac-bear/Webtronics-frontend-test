@@ -1,0 +1,52 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "title title title"
+    "text img1 img2"
+    "img3 img1 img4"
+    "img3 text2 text2";
+  padding-top: 180px;
+}
+
+.title {
+  grid-area: title;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border-radius: 16px;
+}
+
+.img_1 {
+  composes: img;
+  grid-area: img1;
+}
+
+.img_2 {
+  composes: img;
+  grid-area: img2;
+}
+
+.img_3 {
+  composes: img;
+  grid-area: img3;
+}
+
+.img_4 {
+  composes: img;
+  grid-area: img4;
+}
+
+.text_1 {
+  grid-area: text;
+  align-self: center;
+}
+
+.text_2 {
+  grid-area: text2;
+  align-self: end;
+}

@@ -1,0 +1,23 @@
+.button {
+  padding: 24px 32px;
+  color: var(--primary100);
+  font-size: 20px;
+  line-height: 1.2;
+  background-image: var(--linear2);
+  border: none;
+  border-radius: 8px;
+  transition: color .8s ease, opacity .8s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--primary80);
+}
+
+.button:active {
+  color: var(--clean);
+}
+
+.button:disabled {
+  opacity: .4;
+}

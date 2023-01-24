@@ -1,0 +1,38 @@
+.section {
+  padding-top: 261px;
+  width: 100%;
+}
+
+.content {
+  margin: 0 auto;
+  width: var(--content-width);
+}
+
+.note {
+  margin: 0 24px 0 auto;
+  width: 359px;
+}
+
+.title {
+  width: 1171px;
+  line-height: 1;
+  transform: translateY(-125px);
+}
+
+.secondTitle {
+  display: block;
+  margin-right: 7%;
+  text-align: right;
+}
+
+.subTitle {
+  display: block;
+  margin: 0;
+  padding: 14px 0 0 0;
+  font-size: var(--h3);
+  text-align: right;
+}
+
+.button {
+  transform: translateY(-277px);
+}

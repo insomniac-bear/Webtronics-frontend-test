@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 17px;
+}
+
+.title {
+  text-align: center;
+}
+
+.text {
+  padding-top: 163px;
+  width: 473px;
+}
