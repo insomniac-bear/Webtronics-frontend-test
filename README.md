@@ -11,5 +11,6 @@
 3. NextJS
 4. TypeScript с использованием библиотеки React
 5. Module.css
-6. React HookForm
-7. Yup
+6. Redux Toolkit
+7. React HookForm
+8. Yup
